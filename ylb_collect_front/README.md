@@ -1,14 +1,24 @@
 Config Environment
 export YLB_API_KEY=57cbc160-48ad-4483-8e6c-6fae6fbb9eba      LBDのAPIKey
+
 export YLB_API_SECRET=d3695c2e-a8c0-4b10-b605-548eed77bd40   LBDのAPIシークレット
+
 export YLB_ENDPOINT=https://test-api.blockchain.line.me      LBDのcashewのAPIエンドポイント
+
 export YLB_OWNER_WALLET_ADDRESS=tlink1sactxhklr6l3lchs87n7anxkhs2w0km5tjn6y5  オーナーウォレットの公開鍵
+
 export YLB_OWNER_WALLET_SECRET=AO1E/qCNJgDTR4JZxtOAKBa43VKZAhYO7lCQGCL206A=   オーナウォレットの秘密鍵
+
 export YLB_CONTRACT_ID_ITEM=d6e39d96   コントラクトID
+
 export YLB_TOKEN_TYPE_LBCR=10000060    トークンタイプ
+
 export LINE_LOGIN_CHANNEL_ID=1655612780　　LINE Developersチャンネル
+
 export LINE_LOGIN_CHANNEL_SECRET=0ccd7cfe0e22a52ce58262fb31c9faff  LINE Developers チャンネルシークレット
+
 export LINE_LOGIN_CALLBACK_URL=http://localhost:3080/oauth/callback  コールバックURL
+
 export MySQLPassword= 'SQLのパスワード'//
 
 
