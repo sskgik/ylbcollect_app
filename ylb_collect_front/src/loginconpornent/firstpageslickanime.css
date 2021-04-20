@@ -1,0 +1,57 @@
+
+.slickbody {
+  position: absolute;
+  bottom: 0px;
+  width: 100vw;
+  height: 280px;
+  background-color: transparent;
+  font-size: calc(10px + 2vmin);
+}
+
+.slider{
+  margin-top: 50px;
+}
+
+.NFTcard{
+  width: 400px;
+  height: 200px;
+  background-image: url(https://sskgik.github.io/ylbcollect/NFTimage.jpg);
+  background-size: 400px 200px;
+  border: none;
+}
+
+.NFTARcard{
+  width: 400px;
+  height: 200px;
+  background-image: url(https://sskgik.github.io/ylbcollect/Ticket.jpg);
+  border: none;
+  background-size: 400px 200px;
+}
+.NFTmovie{
+  width: 400px;
+  height: 200px;
+  background-image: url(https://sskgik.github.io/ylbcollect/vision.jpg);
+  border: none;
+  background-size: 400px 200px;
+}
+.NFTvoice{
+  width: 400px;
+  height: 200px;
+  background-image: url(https://images.pexels.com/photos/358574/pexels-photo-358574.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+  border: none;
+  background-size: 400px 200px;
+}
+.NFTticket{
+  width: 400px;
+  height: 200px;
+  background-image: url(https://images.pexels.com/photos/1738986/pexels-photo-1738986.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+  border: none;
+  background-size: 400px 200px;
+}
+.NFTcontract{
+  width: 400px;
+  height: 200px;
+  background-image: url(https://images.pexels.com/photos/96381/pexels-photo-96381.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+  border: none;
+  background-size: 400px 200px;
+}

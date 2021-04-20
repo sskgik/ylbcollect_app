@@ -1,0 +1,70 @@
+
+.imageslickbody{
+  position: relative;
+  top: 60px;
+  left: 0;
+  width: 100vw;
+  height: 400px;
+  font-size: calc(10px + 2vmin);
+  display: block;
+  z-index: 5;
+}
+
+.imgarea {
+  text-align: center;
+  justify-content: center;
+  width: 100vw;
+  height: 400px;
+  background-repeat: none;
+}
+
+.image1{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url(https://sskgik.github.io/ylbcollect/fuji.jpg);
+  background-size: 100vw 400px;
+  background-repeat: no-repeat; 
+}
+
+.image2{
+  width: 100%;
+  height: 100%;
+  background-image: url(https://sskgik.github.io/ylbcollect/ukiyoe.jpg);
+  background-size: 100vw 400px;
+  background-repeat: no-repeat;
+
+}
+
+.image3{
+  width: 100%;
+  height: 100%;
+  background-image: url(https://sskgik.github.io/ylbcollect/animal.jpg);
+  background-size: 100vw 400px;
+  background-repeat: no-repeat;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.image4{
+  width: 100%;
+  height: 100%;
+  background-image: url(https://sskgik.github.io/ylbcollect/art.jpg);
+  background-size: 100vw 400px;
+  background-repeat: no-repeat;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.imgareatext {
+  text-align: center;
+  justify-content: center;
+  width: 100vw;
+  height: 400px;
+  background-color: rgb(43, 43, 43);
+  color: white;
+}
+
+.userformslicktxt{
+  margin-top: 30px;
+}

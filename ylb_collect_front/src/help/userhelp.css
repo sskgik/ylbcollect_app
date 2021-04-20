@@ -1,0 +1,40 @@
+.Userhelpbody{
+  background-color: white;
+  width: 100vw;
+  height: 100vh;
+}
+
+.userheader{
+   width: 100vh;
+   height: 60px; 
+   
+}
+
+.IndexArea{
+   width: 100vh;
+   height: 30px;
+   margin-top: 15px;
+   margin-left: 30px;
+   border-radius: 20px;
+   background-color: rgb(245, 245, 245);
+   text-align: left;
+   vertical-align: middle;
+   border: none;
+   line-height: 30px;
+   text-indent: 1em;
+   font-size: 20px;
+   font-family: FontAwesome;
+}
+
+.category{
+   text-indent: 1em;
+}
+
+.Emphasisunderline{
+   text-decoration: underline;
+}
+
+.Emphasis{
+   text-decoration: underline;
+   color: rgb(0,185,0);
+}

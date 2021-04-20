@@ -1,0 +1,24 @@
+
+.NFTElement{
+  width: 150px;
+  height: 150px;
+  border: 1px solid rgba(128, 128, 128, 0.267);
+  text-align: center;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+.NFTElement:hover{
+  -webkit-transform: translateY(-5px);
+  -ms-transform: translateY(-5px);
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px 0 rgba(0, 0, 0, .3);
+}
+
+.NFTcollectionname{
+  text-align: center;
+  font-size: 1rem;
+  margin-bottom: 3%;
+}

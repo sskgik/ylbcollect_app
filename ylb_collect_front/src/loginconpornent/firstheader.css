@@ -1,0 +1,125 @@
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 60px;
+  background-color: white;
+  font-size: calc(10px + 2vmin);
+  display: inline;
+  z-index: 15;
+}
+
+.Logotxt{
+  color: rgb(0,185,0);
+  font-size: 2em;
+  line-height: 50px;
+  float: left;
+  margin-left: 20px;
+}
+
+.logintext{
+  position: fixed;
+  right: 100px;
+  top:20px;
+  font-size: 18px;
+}
+.logintext:hover{
+  color: rgb(0,185,0);
+}
+.logintext:active{
+  color: black;
+}
+
+.bussinessownerpage{
+  text-align: center;
+  color: grey;
+  font-size: 15px;
+  float: right;
+  line-height: 2;
+  height: 100vh;
+  width: 300px;
+  z-index: 10;
+}
+
+/* ボタン */
+.icon{
+  position: fixed;
+  top: -5px;
+  right: 10px;
+  float: right;
+  width: 80px;
+  height: 60px;
+  background-color: transparent;
+  border: none;
+}
+
+.listmenu{
+  position: relative;
+  height: 100vh;
+  max-width: 0px;
+  overflow-x: hidden;
+  background-color: rgb(247, 247, 247);
+  font-family: sans-serif;
+  text-align: left;
+  white-space: nowrap;
+}
+
+
+.open {
+  max-height: 100vh;
+  max-width: 300px;
+  animation: slidein 1s;
+}
+
+.close {
+  max-height: 100vh;
+  max-width: 0px;
+  transition: 1s;
+}
+
+/*スライドイン*/
+@keyframes slidein {
+  0%{
+    transform: translateX(-300px);
+  }
+  100%{
+    transform: translateX(0);
+  }
+}
+
+ul{
+  list-style: none;
+}
+
+.liststyle{
+  list-style: none;
+  text-decoration: none;
+  color: grey;
+}
+.liststyle:hover{
+  color: blue;
+}
+
+.backbutton{
+  background-color: transparent;
+  border: none;
+}
+
+.openchatQR1{
+  height: 200px;
+  width: 200px;
+  margin-left: 55px;
+}
+
+.fOpenchatinvitetxt{
+  margin-left: 20px;
+  margin-bottom: 20px;
+  color: grey;
+  text-decoration: underline;
+}
+.fOpenchatinvitetxt:hover{
+  color: blue;
+}
+

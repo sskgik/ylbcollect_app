@@ -1,0 +1,210 @@
+
+.CreateNFTbody {
+  position: relative;
+  top: 0px;
+  left: 2%;
+  width: 90%;
+  height: 90%;
+  background-color: white;
+}
+
+p.NFTissueinfo{
+  position: relative;
+  left: 2%;
+  font-size: 20px;
+  font-weight: 700; 
+}
+
+.CreateNFTList{
+  display:grid;
+  grid-template-columns:  repeat(4,220px);
+  gap: 10px;
+}
+
+.NowonSaleNFTArea{
+  width: 230px;
+  height: 230px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.NowonSaleNFTArea:hover > .NFTElement{
+  -webkit-transform: translateY(-5px);
+  -ms-transform: translateY(-5px);
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px 0 rgba(0, 0, 0, .3);
+}
+
+.NFTElement{
+  width: 150px;
+  height: 150px;
+  border: none;
+  text-align: center;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+.MessageCardTotal{
+  display: none;
+}
+
+.NowonSaleNFTArea:hover > .OnsaleNFTButtonArea{
+  display: block;
+}
+.OnsaleNFTButtonArea{
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  display: none;
+}
+.StopSelling,.OnsaleNFTinfo{
+  margin: 2px;
+  width: 100px;
+  height: 40px;
+  border-radius: 5px;
+  color: white;
+  font-size: 1.1rem;
+  font-weight: 500;
+  border: none;
+}
+.StopSelling{
+  background-color: #fc9106;
+}
+.StopSelling:hover{
+  background-color: #fda839;
+}
+.StopSelling:active{
+  background-color: #fc9106;
+}
+
+.OnsaleNFTinfo{
+  background-color: #00c300;
+}
+.OnsaleNFTinfo:hover{
+  background-color: #00E000;
+}
+.OnsaleNFTinfo:active{
+  background-color: #00c300;
+}
+
+
+/*Modal 販売中のNFTの詳細情報表示*/
+.overlay{
+  z-index: 20;
+  position:fixed;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background-color:rgba(0, 0, 0, 0.247);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Modal{
+  z-index: 30;
+  Width: 40%;
+  Height: 60%;
+  min-height: 470px;
+  min-width: 550px;
+  max-height: 480px;
+  max-width: 570px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+/*Modalheader*/
+.headerflex{
+  position: relative;
+  width: 100%;
+  height: 10%;
+  display: flex;
+}
+
+.Modalheader{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(128, 128, 128, 0.26);
+  border-top-left-radius: 10px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  text-indent: 1em;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.Modalclosebutton{
+  position: relative;
+  float: right;
+  width: 10%;
+  height: 100%;
+  border-top-right-radius: 10px;
+  border: none;
+  background-color: rgba(128, 128, 128, 0.26);
+}
+
+.SellTargetNFTshowArea{
+  position: relative;
+  width: 100%;
+  height: 330px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.493);
+}
+.SellTargetNFTImage{
+  width: 280px;
+  height: 280px;
+}
+
+
+.AllDetailArea{
+  position: relative;
+  width: 100%;
+  height: 20%;
+  display: flex;
+  font-size: 0.8rem;
+  font-weight: 400;
+}
+.leftDetail{
+  position: relative;
+  width: 33%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  border-right: 0.5px solid rgba(128, 128, 128, 0.493);
+}
+
+.Soldunittitle,.Soldunitdata{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(54, 54, 54);
+}
+.Soldunittitle{
+  font-size: 1rem;
+}
+.Soldunitdata{
+  font-size: 1.5rem;
+}
+
+.CenterDetail{
+  position: relative;
+  width: 34%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  border-right: 0.5px solid rgba(128, 128, 128, 0.493);
+}
+
+
+
+

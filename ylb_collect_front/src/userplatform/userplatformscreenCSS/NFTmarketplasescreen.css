@@ -1,0 +1,492 @@
+
+.MerketplaceNFTbody {
+  position: relative;
+  top: 0px;
+  left: 3%;
+  width: 92%;
+  height: 90%;
+  background-color: white;
+}
+
+p.NFTMerketpaceinfo{
+  position: relative;
+  font-size: 20px;
+  font-weight: 700; 
+}
+
+.MerketplaceNFTList{
+  display:grid;
+  grid-template-columns:  repeat(4,230px);
+  gap: 20px;
+}
+
+
+.NFTMarketplaceElement{
+  position: relative;
+  width: 230px;
+  height: 230px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.NFTMarketplaceElement:hover > .NFTimageAreahover{
+  -webkit-transform: translateY(-5px);
+  -ms-transform: translateY(-5px);
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px 0 rgba(0, 0, 0, .3);
+}
+
+.NFTMarketplaceElement:hover > .NFTmarketButtonArea{
+  display: flex;
+  flex-direction: row;
+}
+
+.NFTTokenName{
+  display: none;
+}
+
+.NFTmerketprice{
+  text-align: center;
+  font-size: 1rem;
+  margin-bottom: 3%;
+  display: flex;
+}
+
+
+.NFTimageArea{
+  width: 150px;
+  height: 150px;
+  border-radius: 5px;
+  border: 1px solid rgba(128, 128, 128, 0.267);
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+.fontcolor{
+  color: transparent;
+}
+
+.NFTmarketButtonArea{
+  display: flex;
+  flex-direction: row;
+  display: none;
+}
+
+.Tocartbutton,.BuyNFTbutton{
+  margin: 2px;
+  width: 100px;
+  height: 40px;
+  border-radius: 5px;
+  color: white;
+  font-size: 1.1rem;
+  font-weight: 500;
+  border: none;
+}
+.Tocartbutton{
+  background-color: #fc9106;
+}
+.Tocartbutton:hover{
+  background-color: #fda839;
+}
+.Tocartbutton:active{
+  background-color: #fc9106;
+}
+
+.BuyNFTbutton{
+  background-color: #00c300;
+}
+.BuyNFTbutton:hover{
+  background-color: #00E000;
+}
+.BuyNFTbutton:active{
+  background-color: #00c300;
+}
+
+
+/*Modal 購入者のシングル購入ボタン*/
+.overlay{
+  z-index: 20;
+  position:fixed;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background-color:rgba(0, 0, 0, 0.247);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Modal{
+  z-index: 30;
+  Width: 40%;
+  Height: 60%;
+  min-height: 470px;
+  min-width: 550px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+/*Modalheader*/
+.headerflex{
+  position: relative;
+  width: 100%;
+  height: 10%;
+  display: flex;
+}
+
+.Modalheader{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(128, 128, 128, 0.26);
+  border-top-left-radius: 10px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  text-indent: 1em;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.Modalclosebutton{
+  position: relative;
+  float: right;
+  width: 10%;
+  height: 100%;
+  border-top-right-radius: 10px;
+  border: none;
+  background-color: rgba(128, 128, 128, 0.26);
+}
+
+.BuyTargetNFTshowArea{
+  position: relative;
+  width: 100%;
+  height: 125px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.493);
+}
+.TargetNFTImage{
+  width: 100px;
+  height: 100px;
+}
+
+.BuyUserIDArea,.PaymentlowArea{
+  position: relative;
+  width: 100%;
+  height: 12%;
+  display: flex;
+  font-size: 0.8rem;
+  font-weight: 400;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.493);
+}
+.UserIDtitle{
+  width: 30%;
+  text-indent: 2em;
+}
+.UserIDdata{
+  width: 70%;
+}
+.UserIDtitle,.UserIDdata{
+  height: 100%;
+  display: flex;
+  align-items: center;
+  float: left;
+  color: rgb(54, 54, 54);
+}
+/*支払い方法*/
+.PaymentlowArea{
+  position: relative;
+  width: 100%;
+  height: 12%;
+  display: flex;
+  font-size: 0.8rem;
+  font-weight: 400;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.493);
+}
+.Paymentlowtitle{
+  width: 30%;
+  text-indent: 2em;
+}
+.Paymentlow{
+  width: 70%;
+}
+.Paymentlowtitle,.Paymentlow{
+  height: 100%;
+  display: flex;
+  align-items: center;
+  float: left;
+  color: rgb(54, 54, 54);
+}
+/*価格表示*/
+.PriceshowArea{
+  position: relative;
+  width: 100%;
+  height: 12%;
+  display: flex;
+  font-size: 0.8rem;
+  font-weight: 400;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.493);
+}
+.Priceshowtitle{
+  width: 30%;
+  text-indent: 2em;
+}
+.Priceshow{
+  width: 70%;
+}
+.Priceshowtitle,.Priceshow{
+  height: 100%;
+  display: flex;
+  align-items: center;
+  float: left;
+  color: rgb(54, 54, 54);
+}
+/*規約画面*/
+.PurchaseTermsArea{
+  position: relative;
+  width: 100%;
+  height: 12%;
+  display: flex;
+  font-size: 0.8rem;
+  font-weight: 400;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.493);
+}
+.PurchaseTermstitle{
+  width: 30%;
+  text-indent: 2em;
+}
+.PurchaseTerms{
+  width: 70%;
+}
+.PurchaseTermstitle,.PurchaseTerms{
+  height: 100%;
+  display: flex;
+  align-items: center;
+  float: left;
+  color: rgb(54, 54, 54);
+}
+
+/*規約同意とLINEpay決済*/
+.FinalArea{
+  position: relative;
+  width: 100%;
+  height: 15%;
+  display: flex;
+  font-size: 0.8rem;
+  font-weight: 400;
+}
+.AgreeTerms,
+.LINEpayButtonArea{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(54, 54, 54);
+}
+
+.LINEpaypayment{
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+  margin: 5px;
+  height: 40px;
+  width:  150px;
+  color: white;
+  font-size: 1rem;
+  font-weight: 700;
+}
+.LINEpaypayment{
+  background-color: #00E000;
+}
+.LINEpaypayment:hover:not(.disableLinepaybutton){
+  background-color: #01f301;
+}
+.LINEpaypayment:active{
+  background-color: #00E000;
+}
+.disableLinepaybutton{
+  background-color: grey;
+}
+
+/*CreateMessageModal(投げメッセージ)*/
+.CreateMessageModal{
+  z-index: 30;
+  Width: 50%;
+  Height: 70%;
+  min-height: 470px;
+  min-width: 650px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.Modalmainframe{
+  position: relative;
+  Width: 100%;
+  Height: 90%;
+  border-bottom: 0.5px solid gray;
+  display: flex;
+}
+.MessagecardimageArea{
+  Width: 60%;
+  Height: 100%;
+  display: flex;
+  flex-direction: column;
+  border-right: 0.5px solid gray;
+  background-color: rgba(238, 238, 238, 0.486);
+}
+.MessagecardElement{
+  Width: 100%;
+  Height: 75%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Messagecardimageframe{
+  Width: 65%;
+  Height: 95%;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.Messagecardimage{
+  Width: 90%;
+  Height: 90%;
+  border: 0.5px solid gray;
+}
+p.Messagetext{
+  position: relative;
+  top: 200px;
+  font-size: 1rem;
+}
+/*テンプレートチョイス*/
+.TemplatechoiseArea{
+  Width: 100%;
+  Height: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Templatechoiseflame{
+  Width: 90%;
+  Height: 90%;
+  display: flex;
+  flex-direction: row;
+  border-radius: 5px;
+  background-color: white;
+}
+.Templateleft{
+  width: 33%;
+  border-right: 0.5px solid gray;
+}
+.Type1{
+  background-image: url(https://sskgik.github.io/ylbcollect/ThanksType1.png);
+  background-repeat: none;
+  background-size: 100% 100%;
+}
+
+.Templatecenter{
+  width: 34%;
+  border-right: 0.5px solid gray;
+}
+.Type2{
+  background-image: url(https://sskgik.github.io/ylbcollect/ThanksType2.png);
+  background-repeat: none;
+  background-size: 100% 100%;
+}
+
+.Templateright{
+  width: 33%;
+}
+.Type3{
+  background-image: url(https://sskgik.github.io/ylbcollect/ThanksType3.png);
+  background-repeat: none;
+  background-size: 100% 100%;
+}
+.centerpos{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Templateimage{
+  width: 45%;
+  height: 90%;
+  border: 0.5px solid gray;
+}
+
+.Modalmainframeright{
+  Width: 40%;
+  Height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.mainframerightupper{
+  Height: 35%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.targetNFTimage{
+  height: 130px;
+  width: 130px;
+  border: 0.5px solid gray;
+}
+
+.mainframerightmiddle{
+  Height: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+p.Catchphrase{
+  width: 80%;
+  font-size: 0.8rem;
+}
+
+.mainframerightmiddle2{
+  Height: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.MessagetextArea{
+  height: 90%;
+  width: 90%;
+  text-indent: 1em;
+  border-radius: 10px;
+}
+.mainframerightlower{
+  Height: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+p.messagepricetitle,.messageprice{
+  margin: 1%;
+  font-size: 1rem;
+}
+
+.MessageletterFinalArea{
+  height: 10%;
+  width: 100%;
+  display: flex;
+}
+/*ページ数を表示*/
+.MarketShowpagenumberarea{
+  position: relative;
+  top: 1%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 5%;
+}

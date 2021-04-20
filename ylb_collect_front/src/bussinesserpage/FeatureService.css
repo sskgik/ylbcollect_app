@@ -1,0 +1,117 @@
+.Featurebody {
+  text-align: left;
+  width: 100%;
+  height: 1100px;
+  background: rgb(236, 235, 235);
+  margin-top: -39px;
+}
+
+
+.featureinfo{
+  margin-left: 180px;
+}
+p.Featureheader { 
+  height: 50px;
+  font-size: 2.5em;;
+  font-weight: 700;
+}
+
+.Featureheaderbody{
+ margin-top: 50px;
+}
+
+.Deatailsheader{
+  line-height: 5x;
+  font-size: 15px;
+  font-weight: 700;
+}
+/*1層目の塊の定義*/
+.Featureinfo1 {
+  display: flex;
+  float: left;
+  width: 100%;
+  height: 90%;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+/*２層目の塊の定義*/
+.Featureinfo2 {
+  display: flex;
+  float: left;
+  width: 100%;
+  height: 90%;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+
+}
+
+.Feature1{
+  text-align: center;
+  width: 350px;
+  height: 450px;
+  border: 3px solid rgb(8, 11, 201);
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.Feature2{
+  text-align: center;
+  width: 350px;
+  height: 450px;
+  border: 3px solid rgb(8, 11, 201);
+  border-left: none;
+  border-right: none;
+}
+
+.Feature3{
+  text-align: center;
+  width: 350px;
+  height: 450px;
+  border: 3px solid rgb(8, 11, 201);
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.Feature4{
+  text-align: center;
+  width: 350px;
+  height: 450px;
+  border: 3px solid rgb(8, 11, 201);
+  border-top: none;
+  border-bottom-left-radius: 10px;
+}
+.Feature5{
+  text-align: center;
+  width: 350px;
+  height: 450px;
+  border: 3px solid rgb(8, 11, 201);
+  border-top: none;
+  border-left: none;
+  border-bottom-right-radius: 10px;
+}
+
+p.FeatureHead{
+  font-size: 20px;
+  font-weight: 750;
+}
+
+p.FeatureDetail{
+  text-align: left;
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 50px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.LINEBLOCKCHAIN{
+  line-height: 110px;
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.App-link {
+  color: #61dafb;
+}

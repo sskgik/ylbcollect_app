@@ -1,0 +1,52 @@
+
+.CreateNFTHistorybody {
+  position: relative;
+  top: 0px;
+  left: 50px;
+  width: 90%;
+  height: 90%;
+  background-color: white;
+}
+
+.ToBCExplorer{
+  position: relative;
+  top: 0px;
+  left: 0px;
+  font-size: 18px;
+  display: flex;
+  flex-wrap: nowrap;
+  margin-bottom: 40px;
+}
+.ToBCExplorer:hover{
+  color: rgb(0,185,0);
+}
+.ToBCExplorer:active{
+  color: black;
+}
+
+.Showpagenumberarea{
+  position: relative;
+  top: 1%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.upperarea{
+  margin-bottom: 2%;
+  }
+
+.SellerHystorypagenum{
+  border: none;
+  width: 30px;
+  height: 30px;
+  background-color: transparent;
+  color: grey;
+  font-size: 1.2rem;
+}
+.SellerHystorypagenum:hover{
+  color: black;
+}
+.SellerHystorypagenum:active{
+  color: grey;
+}

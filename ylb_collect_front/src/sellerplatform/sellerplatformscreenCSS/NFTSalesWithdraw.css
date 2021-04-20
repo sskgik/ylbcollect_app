@@ -1,0 +1,297 @@
+
+.CreateNFTSalesWithdrawbody {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+}
+/*サイドディスプレイエリア*/
+.SideSalesdisplayArea{
+  position: relative;
+  width: 25%;
+  height: 99.5%;
+  border: 2.5px solid rgb(202, 202, 202);
+}
+
+.Saleswindow{
+  position: relative;
+  width: 100%;
+  height: 25%;
+  background-color: rgba(255, 255, 255, 0.671);
+  border-bottom: 2.5px solid rgb(202, 202, 202);
+}
+
+.Monthlysalestxt{
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-weight: 800;
+}
+/*Detailsbutton*/
+.MonthlysalesDetails{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid grey;
+  background-color: white;
+  z-index: 10;
+}
+.MonthlysalesDetails:hover{
+  background-color: rgb(0,185,0);
+  color: white;
+  border: none;
+}
+.MonthlysalesDetails:active{
+  background-color: white;
+  color: black;
+  border: 1px solid grey;
+}
+
+/*売り上げデータの表示と消費税の計算*/
+.Salsedatawindow{
+  position: absolute;
+  margin-top: 20px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+
+.Salsedata{
+  font-size: 1.5em;
+  font-weight: 500;
+}
+
+hr.Salesdatahorline{
+  width: 50%;
+  background-color: grey;
+}
+
+.ConsumptionTaxArea{
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+  font-size: 20px;
+}
+
+p.ConsumptionTaxtxt{
+  position: relative;
+  margin-right: 10px;
+}
+
+p.ConsumptionTaxData{
+  position: relative;
+  margin-left: 10px;
+}
+/*月間の販売者利益*/
+.MonthlyProfitArea{
+  position: relative;
+  width: 100%;
+  height: 10%;
+  background-color: rgba(255, 255, 255, 0.671);
+  border-bottom: 2.5px solid rgb(202, 202, 202);
+  border-top: none;
+}
+
+.MonthlyProfittxt{
+  position: absolute;
+  top: 10%;
+  left: 10px;
+  font-size: 15px;
+  font-weight: 800;
+}
+
+.MonthlyProfitData{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+/*月間のNFTの売り上げ*/
+.MonthlySalesNFTArea{
+  position: relative;
+  width: 100%;
+  height: 10%;
+  background-color: rgba(255, 255, 255, 0.671);
+  border-bottom: 2.5px solid rgb(202, 202, 202);
+  border-top: none;
+}
+
+.MonthlysalesNFTnumtxt{
+  position: absolute;
+  top: 10%;
+  left: 10px;
+  font-size: 15px;
+  font-weight: 800;
+}
+
+.MonthlysalesNFTnumData{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+
+.MonthlysalesNFTnumDetail{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid grey;
+  background-color: white;
+  z-index: 10;
+}
+.MonthlysalesNFTnumDetail:hover{
+  background-color: rgb(0,185,0);
+  color: white;
+  border: none;
+}
+.MonthlysalesNFTnumDetail:active{
+  background-color: white;
+  color: black;
+  border: 1px solid grey;
+}
+/*販売手数料の表示エリア*/
+.MonthlySalesFeeArea{
+  position: relative;
+  width: 100%;
+  height: 10%;
+  background-color: rgba(255, 255, 255, 0.671);
+  border-bottom: 2.5px solid rgb(202, 202, 202);
+  border-top: none;
+}
+
+.MonthlySalesFeetxt{
+  position: absolute;
+  top: 10%;
+  left: 10px;
+  font-size: 15px;
+  font-weight: 800;
+}
+
+.MonthlySalesFeeData{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+/*出金可能額*/
+.WithdrawalamountArea{
+  position: relative;
+  width: 100%;
+  height: 10%;
+  background-color: rgba(255, 255, 255, 0.671);
+  border-bottom: 2.5px solid rgb(202, 202, 202);
+  border-top: none;
+}
+
+.Withdrawalamounttxt{
+  position: absolute;
+  top: 10%;
+  left: 10px;
+  font-size: 15px;
+  font-weight: 800;
+}
+
+.WithdrawalamountData{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+
+.WithdrawalamountDetail{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid grey;
+  background-color: white;
+  z-index: 10;
+}
+.WithdrawalamountDetail:hover{
+  background-color: rgb(0,185,0);
+  color: white;
+  border: none;
+}
+.WithdrawalamountDetail:active{
+  background-color: white;
+  color: black;
+  border: 1px solid grey;
+}
+
+.MainSalesdisplayArea{
+  width: 75%;
+  height: 100%;
+  margin-left: -2%;
+}
+.Mainsalesplotdisplay{
+  width: 100%;
+  height: 100%;
+}
+.MainSalesdisplay{
+  width: 100%;
+  height: 50%;
+}
+/*売り上げ額のアナリティクス管理*/
+.PlotGrapfArea{
+  width: 100%;
+  height: 90%;
+}
+.Salesamountgraph{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+/*売り上げ個数のアナリティクス管理*/
+.BarGrapfArea{
+  width: 100%;
+  height: 90%;
+}
+.Salesquntitygraph{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+p.showmonth{
+  width: 100%;
+  height: 5%;
+  text-align: center;
+  margin-bottom: -2%;
+}
+.SalesQuntitytable{
+  width: 80%;
+  height: 50%;
+  margin-left: 13%;
+  margin-top: 5%;
+}

@@ -1,0 +1,20 @@
+.infomain{
+  width: 100vw;
+  height: 100vh;
+}
+
+.Infobody {
+  position: relative;
+  top: 75px;
+  text-align: center;
+  width: 90%;
+  height: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+}
+
+.h1font {
+  font-size: 2.5em;
+}
+

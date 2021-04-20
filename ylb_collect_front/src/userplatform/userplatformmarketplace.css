@@ -1,0 +1,165 @@
+
+
+.merketplacebody{
+  position: relative;
+  margin-top: 30px;
+  width: 100vw;
+  height: 380vh;
+  background-color: white;
+  font-size: calc(10px + 2vmin);
+  display: block;
+  z-index: 10;
+}
+
+.merketplaceheader{
+  position:absolute;
+  text-align: center;
+  justify-content: center;
+  float: left;
+  width: 100vw;
+  height: 63px;
+  background-color: black;
+  z-index: 10;
+}
+
+.merketplaceheaderinner{
+  position:absolute;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  width: 100vw;
+  height: 40px;
+  border-top: 0.5px solid rgb(255, 4, 242);
+  border-bottom: 0.5px solid rgb(255, 4, 242);
+  margin-top: 10px;
+}
+
+.merketpaleceNFT{
+  justify-content: center;
+  display: flex;
+  width: 150px;
+  height: 50px;
+  color: white;
+  font-size: 15px;
+  line-height: 50px;
+  border: 0.5px solid rgb(255, 4, 242);
+  margin-top: -6px;
+}
+
+.merketpaleceNFT:hover{
+  background-color: white;
+  color: black;
+}
+.merketpaleceNFT:active{
+  background-color: transparent;
+  color: white;
+}
+.yet:hover{
+  background-color:transparent;
+  color: white;
+}
+
+.Flexpositon{
+  position: relative;
+  display:  flex;
+  height: 98%;
+  top: 60px;
+}
+/*sidemenu*/
+.usersidemenu{
+  position: -webkit-sticky; /* safari対応 */
+  position: sticky;
+  /*position: relative;*/
+  width: 20vw;
+  height: 100vh;
+  top: 60px;
+  border-right: 0.5px solid grey;
+}
+
+
+.sidemenutxtpos{
+  margin-left: 30px;
+}
+
+p.buytxt{
+  color: grey;
+  font-size: 15px;
+  line-height: 40px;
+}
+
+.userChoisesmenu{
+  display: flex;
+  flex-direction: column;
+}
+
+.userChoices{
+  color: black;
+  font-size: 15px;
+  line-height: 40px;
+  font-weight: 700;
+  text-decoration: none;
+  display: flex;
+  
+}
+.userChoices:hover{
+  color: rgb(0,185,0);
+}
+.userChoices:active{
+  color: black;
+}
+
+.sidemenuhr{
+  width: 80%;
+  border: 0.5px solid rgba(173, 170, 170, 0.836);
+}
+
+.sideinfomenupos{
+  height: 250px;
+  margin-left: 30px;
+}
+
+.Headingtxt{
+  color: rgb(92, 88, 88);
+  font-size: 15px;
+  line-height: 10px;
+}
+
+.usermerketinfomenu{
+  display: flex;
+  flex-direction: column;
+}
+
+.usermerketinfo{
+  color: grey;
+  font-size: 15px;
+  text-decoration: underline;
+  width: 90%;
+  word-break: break-all;
+}
+
+.userhelpmenu{
+  color: black;
+  font-size: 15px;
+  line-height: 40px;
+  font-weight: 700;
+  margin-left: 30px;
+  text-decoration: none;
+}
+.userhelpmenu:hover{
+  color: rgb(0,185,0);
+  text-decoration: none;
+}
+.userhelpmenu:active{
+  color: black;
+  text-decoration: none;
+}
+
+/*merketplasemain*/
+.usermerketplacemainbody{
+  position: relative;
+  width: 80vw;
+  height: 100vh;
+  background-color:white;
+  font-size: calc(10px + 2vmin);
+  display: block;
+}

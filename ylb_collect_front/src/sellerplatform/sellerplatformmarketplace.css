@@ -1,0 +1,102 @@
+
+
+.sellermerketplacebody{
+  position: relative;
+  margin-top: 60px;
+  width: 100vw;
+  height: 130vh;
+  background-color: white;
+  font-size: calc(10px + 2vmin);
+  z-index: 10;
+}
+
+.sellerFlexpositon{
+  display:  flex;
+}
+/*sidemenu*/
+.sellersidemenu{
+  position: relative;
+  width: 20vw;
+  height: 130vh;
+  border-right: 0.5px solid grey;
+}
+
+.sidemenutxtpos{
+  margin-left: 30px;
+}
+
+p.GenNFTtxt{
+  color: grey;
+  font-size: 15px;
+  line-height: 40px;
+}
+
+.sellerChoisesmenu{
+  display: flex;
+  flex-direction: column;
+}
+
+.sellerChoices{
+  color: black;
+  font-size: 15px;
+  line-height: 40px;
+  font-weight: 700;
+  display: flex;
+  white-space: nowrap;
+  text-decoration: none;
+}
+.sellerChoices:hover{
+  color: rgb(0,185,0);
+}
+.sellerChoices:active{
+  color: black;
+}
+
+.sidemenuhr{
+  width: 80%;
+  border: 0.5px solid rgba(173, 170, 170, 0.836);
+}
+
+.sideinfomenupos{
+  height: 250px;
+  margin-left: 30px;
+}
+
+.Headingtxt{
+  color: rgb(92, 88, 88);
+  font-size: 15px;
+  line-height: 10px;
+}
+
+.sellermerketinfomenu{
+  display: flex;
+  flex-direction: column;
+}
+
+.sellermerketinfo{
+  color: grey;
+  font-size: 15px;
+  text-decoration: underline;
+  width: 90%;
+  word-break: break-all;
+}
+
+.sellerhelpmenu{
+  color: black;
+  font-size: 15px;
+  line-height: 40px;
+  font-weight: 700;
+  margin-left: 30px;
+  text-decoration: none;
+}
+.sellerhelpmenu:hover{
+  color: rgb(0,185,0);
+  text-decoration: none;
+}
+
+/*merketplasemain*/
+.sellermerketplacemainbody{
+  width: 80vw;
+  height: 130vh;
+  background-color:white;
+}

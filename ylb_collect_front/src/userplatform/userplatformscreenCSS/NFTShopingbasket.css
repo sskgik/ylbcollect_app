@@ -1,0 +1,171 @@
+
+.Shopingbasketbody {
+  position: relative;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+}
+
+.Shopingbaskettitle{
+  position: relative;
+  text-align: center;
+  top: 10px;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+hr.Shopingbaskethorline{
+  width: 90%;
+  height: 10px;
+  border-radius: 5px;
+  background-color: rgb(0,185,0);
+  background: linear-gradient(to right, rgba(6, 212, 6, 0.39) , rgb(3, 216, 3), rgba(6, 212, 6, 0.39));
+  border: none;
+}
+
+.Shopingbasketsubtitle{
+  position: relative;
+  margin-top: 50px;
+  margin-left: 5%;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.Shopingbasketsubtitlehorline{
+  margin-top: -1px;
+  width: 90%;
+  height: 5px;
+  background-color: rgba(0, 185, 0, 0.5);
+  border: none;
+}
+.Shopingbasketheader{
+  position: relative;
+  margin-top: -10px;
+  margin-left: 5%;
+  width: 90%;
+  height: 5%;
+  background-color: #00E000;
+  font-size: 20px;
+  font-weight: 700;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+
+.Agreementwindow{
+  position: relative;
+  margin-left: 5%;
+  margin-bottom: 5%;
+  width: 90%;
+  height: 300px;
+  border: 0.5px solid grey;
+  overflow-y: auto;
+  font-size: 1rem;
+}
+
+
+.Shopingbasketbutton{
+  position: relative;
+  margin-top: 1%;
+  margin-left: 5%;
+  display: flex;
+}
+
+.BuyNFTinbasket,.Emptybasket{
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+  margin: 5px;
+  height: 40px;
+  width:  150px;
+  color: white;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.BuyNFTinbasket{
+  background-color: #00E000;
+}
+.BuyNFTinbasket:hover{
+  background-color: #01f301;
+}
+.BuyNFTinbasket:active{
+  background-color: #00E000;
+}
+
+.Emptybasket{
+  background-color: grey;
+}
+.Emptybasket:hover{
+  background-color: rgb(143, 142, 142);
+}
+.Emptybasket:active{
+  background-color: grey;
+}
+
+/*決済前の最終確認画面*/
+.Finalpaymentinfomation{
+  position: relative;
+  margin-left: 5%;
+  width: 90%;
+  height: 40%;
+  border: 1px solid rgb(156, 156, 156);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+table{
+  width:  50%;
+  height: 100%;
+}
+
+td {
+    width:  20%;
+    border: none;
+    font-size: 1.2rem;
+}
+
+.Row1{
+  text-align: left;
+}
+
+.Row2{
+  text-align: right;
+}
+
+/*これは買い物かごのCSS*/
+.Deletebutton{
+  width: 40px;
+  height: 20px;
+}
+
+.NocartSentence{
+  width: 100%;
+  height:  40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+}
+
+.tablehr{
+  width: 200%;
+  height: 2px;
+  border: none;
+  background-color: rgb(156, 156, 156);
+  color: black;
+}
+
+.checkbod__label{
+  font-size: 1rem;
+}
+
+.LINEPaybuttonposition{
+  margin-top: 1%;
+  margin-bottom: 5%;
+}

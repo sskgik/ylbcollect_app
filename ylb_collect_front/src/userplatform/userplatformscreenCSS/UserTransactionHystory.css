@@ -1,0 +1,17 @@
+.TxHashFlex{
+  display: flex;
+}
+
+.TxHashID{
+  width: 90%;
+  height: 100%;
+  margin-right: 2%;
+}
+
+.TxHashCopyButton{
+  width: 10%;
+  height: 100%;
+  margin-left: 1%;
+  border: none;
+  background-color: white;
+}

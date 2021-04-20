@@ -1,0 +1,350 @@
+
+.CreateNFTbodyArea {
+  position: relative;
+  top: 0px;
+  left: 0;
+  width: 100%;
+  height: 90%;
+  background-color: white;
+}
+
+.CreateNFTbodyDetail{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  left: 5%;
+}
+
+.CreateNFThorline{
+  width: 90%;
+  height: 10px;
+  border-radius: 5px;
+  background-color: rgb(0,185,0);
+  background: linear-gradient(to right, rgba(6, 212, 6, 0.39) , rgb(3, 216, 3), rgba(6, 212, 6, 0.39));
+  border: none;
+  float: left;
+}
+
+.NFTCreateTitle{
+  text-align: center;
+  margin-bottom: -1%;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-left: -5%;
+}
+
+.NFTcreateinfo{
+  position: relative;
+  margin-top: 3%;
+  width: 90%;
+  height: 600px;
+  display: flex;
+  flex-direction: row;
+}
+/*左側*/
+.InputArealeft,
+.InputArearight{
+  border: 1px solid grey;
+}
+
+.InputArealeft{
+  position: relative;
+  width: 50%;
+  height: 100%;
+}
+
+.InputArearight{
+  position: relative;
+  width: 50%;
+  height: 100%;
+  border-left: none;
+}
+
+.borderbottom{
+  border-bottom: 1px solid grey;
+}
+
+
+.NFTTokenNameInput{
+  position: relative;
+  height: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.inputform{
+  display: flex;
+  flex-direction: column;
+}
+
+.itemtitle{
+  font-size: 15px; 
+  font-weight: 700;
+}
+.itemtitleupload{
+  position: relative;
+  font-size: 15px; 
+  font-weight: 700;
+  margin-top: -10%;
+  margin-bottom: 10%;
+}
+
+.NFTinputname{
+  width: 400px;
+  height: 30px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.541);
+  margin-top: 20px;
+  color: black;
+  font-size: 60%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+.NFTinputname:focus{
+  -webkit-transform: translateY(-5px);
+  -ms-transform: translateY(-5px);
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px 0 rgba(0, 0, 0, .3);
+}
+
+.permit{
+  border-bottom: 1px solid rgba(128, 128, 128, 0.541);
+}
+.disallowd{
+  border-bottom: 1px solid rgb(255, 2, 2);
+}
+.warningtettranparent{
+  display: none;
+}
+.Warningtext{
+  color: red;
+  font-size: 12px;
+}
+/*全て共通*/
+.TokenameInputinfo{
+  color: grey;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.NFTTokenPrice{
+  position: relative;
+  height: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.NFTprice{
+  width: 400px;
+  height: 30px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.541);
+  margin-top: 20px;
+  color: black;
+  font-size: 60%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+.NFTprice:focus{
+  -webkit-transform: translateY(-5px);
+  -ms-transform: translateY(-5px);
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px 0 rgba(0, 0, 0, .3);
+}
+
+.NFTSalesLimit{
+  position: relative;
+  height: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.InputNFTsaleslimit{
+  width: 400px;
+  height: 30px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.541);
+  margin-top: 20px;
+  color: black;
+  font-size: 60%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+.InputNFTsaleslimit:focus{
+  -webkit-transform: translateY(-5px);
+  -ms-transform: translateY(-5px);
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px 0 rgba(0, 0, 0, .3);
+}
+
+.NFTTypeschose{
+  width: 400px;
+  height: 30px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.541);
+  margin-top: 20px;
+  color: black;
+  font-size: 60%;
+}
+
+
+.ImagedropArea{
+  height: 66.2%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  border-bottom: 1px solid grey;
+
+}
+
+.dropareaposition{
+  position: relative;
+}
+
+.dropareatxt{
+  position: relative;
+  text-align: center;
+  display:block;
+  top: 0;
+  left: 0;
+  width: 300px;
+  height: 130px;
+  padding: 100px 0 0;
+  font-size: 15px;
+  border: 2px dashed rgba(128, 128, 128, 0.541);
+  background: rgba(22, 165, 191, 0);
+  transition: all 0.25s cubic-bezier(0.21, 0.51, 0.51, 1);
+}
+
+.dropareatxt:hover {
+  border: 2px solid #16a5bf;
+  background: rgba(65, 179, 199, 0.6);
+}
+
+.dropareabutton{
+  position: relative;
+  display: block;
+  width: 50%;
+  height: 30px;
+  background-color: white;
+  border: 0.5px solid grey;
+  border-radius: 10px;
+  text-align: center;
+  line-height: 30px;
+  font-size: 1rem;
+  color: black;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 2%;
+}
+.dropareabutton:hover{
+  background-color: #00E000;
+  color: white;
+  font-weight: 700;
+  border: none;
+}
+.dropareabutton:active{
+  background-color: white;
+  color: black;
+  font-weight: 400;
+}
+
+.uploadNFTimage{
+  display: none;
+}
+
+.uploadimagedata{
+  position: relative;
+  text-align: center;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 250px;
+  height: 250px;
+  font-size: 15px;
+}
+
+.NFTTokenIssueUserId{
+  position: relative;
+  height: 33.5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-bottom: none;
+}
+.LINEUserID{
+  width: 400px;
+  height: 30px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.541);
+  margin-top:  20px;
+  color: black;
+  font-size: 60%;
+}
+
+
+/*規約同意とクリア情報 & 前のページへ*/
+.CreateNFTbuttonArea{
+  position: relative;
+  margin-top: 1%;
+  margin-left: 5%;
+  display: flex;
+}
+
+.CreateNFTnext,.ClearandBack{
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+  margin: 5px;
+  height: 40px;
+  width:  150px;
+  color: white;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.CreateNFTnext{
+  background-color: #00E000;
+}
+.CreateNFTnext:hover{
+  background-color: #01f301;
+}
+.CreateNFTnext:active{
+  background-color: #00E000;
+}
+
+.ClearandBack{
+  background-color: grey;
+}
+.ClearandBack:hover{
+  background-color: rgb(143, 142, 142);
+}
+.ClearandBack:active{
+  background-color: grey;
+}
